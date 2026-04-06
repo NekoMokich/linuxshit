@@ -1,0 +1,66 @@
+{
+  FrameBorderColor = "#b6b6b3";
+  FTitleColor = "#ffffff";
+  ScreenCaptureKey = None;
+  MenuDisabledColor = "#999999";
+  IconTitleBack = "#20202e";
+  HotCornerEdge = 2;
+  PixmapPath = (
+    "/home/mokich/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/mokich/GNUstep/Library/WindowMaker/Backgrounds",
+    "/home/mokich/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/pixmaps"
+  );
+  FTitleBack = (hgradient, "rgb:30/32/3e", black);
+  ClipTitleFont = "Verdana:bold:pixelsize=10";
+  IconTitleFont = "Arial,sans serif:pixelsize=9";
+  LargeDisplayFont = "Trebuchet MS,sans serif:pixelsize=24";
+  PartialCaptureKey = Print;
+  CenterKey = None;
+  IconTitleColor = "#ffffff";
+  MenuTitleColor = "#ffffff";
+  MenuTitleFont = "Trebuchet MS,sans serif:bold:pixelsize=12";
+  HotCorners = NO;
+  MoveTo6to12Head = None;
+  DbClickFullScreen = NO;
+  WorkspaceBack = (solid, "#243e6c");
+  HighlightTextColor = "#000000";
+  EnforceIconMargin = NO;
+  ClipTitleColor = "#ffffff";
+  MoveTo12to6Head = None;
+  HotCornerActions = (None, None, None, None);
+  FrameFocusedBorderColor = "#b6b6b3";
+  WindowTitleFont = "Trebuchet MS,sans serif:weight=200:pixelsize=12";
+  ResizebarBack = (solid, "rgb:a0/a2/ae");
+  KbdModeLock = NO;
+  CloseRootMenuByLeftOrRightMouseClick = NO;
+  IgnoreGtkHints = YES;
+  FrameSelectedBorderColor = "#ffffff";
+  ToggleKbdModeKey = None;
+  MenuTextBack = (hgradient, "rgb:50/5a/5e", "rgb:20/2a/2e");
+  HotCornerDelay = 250;
+  MenuTextColor = "#ffffff";
+  IconBack = (mdgradient, gray40, "rgb:50/5a/5e", "rgb:30/32/3e", "rgb:20/2a/2e");
+  AntialiasedText = YES;
+  MenuTextFont = "Trebuchet MS,sans serif:pixelsize=12";
+  DisableMiniwindows = YES;
+  MenuTitleBack = (hgradient, "rgb:30/32/3e", black);
+  HighlightColor = "#ffffff";
+  CClipTitleColor = "#999999";
+  IconPath = (
+    "/home/mokich/GNUstep/Library/Icons",
+    "/home/mokich/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/mokich/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/pixmaps"
+  );
+  PTitleBack = (hgradient, "rgb:70/72/7e", "rgb:45/47/4e");
+  UTitleColor = "#333333";
+  UTitleBack = (hgradient, "rgb:a0/a2/ae", "rgb:90/92/9e");
+  PTitleColor = "#ffffff";
+}

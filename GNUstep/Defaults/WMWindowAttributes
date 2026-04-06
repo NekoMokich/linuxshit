@@ -1,0 +1,14 @@
+{
+  konsole.konsole = {
+    Icon = konsole.konsole.xpm;
+  };
+  firefox.Firefox = {
+    Icon = firefox.Firefox.xpm;
+  };
+  default.default = {
+    Icon = default.default.xpm;
+  };
+  Telegram.TelegramDesktop = {
+    Icon = Telegram.TelegramDesktop.xpm;
+  };
+}

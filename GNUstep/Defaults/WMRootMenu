@@ -1,0 +1,242 @@
+(
+  WindowMaker,
+  (Run..., EXEC, "%a(Run,Type command to run:)"),
+
+
+    (
+    Applications,
+    (    Editors,
+    (Kate, EXEC, kate),
+    (KWrite, EXEC, kwrite),
+    (Nano, EXEC, "konsole -e nano"),
+    ("Code - OSS", EXEC, "code-oss")),
+
+
+
+
+   (
+    Games,
+    (Steam, EXEC, steam),
+    (
+      DevilutionX,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=devilutionx org.diasurgical.DevilutionX --diablo"
+    ),
+    (
+      "DevilutionX Hellfire",
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=devilutionx org.diasurgical.DevilutionX --hellfire"
+    ),
+    (
+      "Dolphin Emulator",
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu"
+    ),
+    (
+      Fightcade,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=fightcade com.fightcade.Fightcade"
+    ),
+    (
+      Flycast,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=flycast --file-forwarding org.flycast.Flycast @@"
+    ),
+    (
+      ioquake3,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=ioquake3 --file-forwarding org.ioquake3.ioquake3 --uri @@u"
+    ),
+    (
+      PCSX2,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=pcsx2-qt net.pcsx2.PCSX2"
+    ),
+    (
+      PortProton,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=portproton --file-forwarding ru.linux_gaming.PortProton @@u"
+    ),
+    ("Prism Launcher", EXEC, prismlauncher),
+    (
+      RetroArch,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=retroarch --file-forwarding org.libretro.RetroArch @@"
+    ),
+    (
+      RPCS3,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=rpcs3 --file-forwarding net.rpcs3.RPCS3 @@"
+    )
+  ),
+(
+    Multimedia,
+    (AIMP, EXEC, aimp),
+    (Audacity, EXEC, audacity),
+    (
+      Kdenlive,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=kdenlive --file-forwarding org.kde.kdenlive @@"
+    ),
+    (
+      LMMS,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=lmms --file-forwarding io.lmms.LMMS @@"
+    ),
+    (MilkyTracker, EXEC, milkytracker),
+    (
+      "mpv Media Player",
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=mpv --file-forwarding io.mpv.Mpv --player-operation-mode=pseudo-gui -- @@u"
+    ),
+    ("MusicBrainz Picard", EXEC, picard),
+    ("OBS Studio", EXEC, obs),
+    (
+      Soundux,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=soundux-startup --file-forwarding io.github.Soundux @@u"
+    ),
+    ("VLC media player", EXEC, vlc)
+  ),
+ (
+    Network,
+    (Discord, EXEC, discord),
+    (Discover, EXEC, "plasma-discover"),
+    (
+      Element,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=/app/bin/element --file-forwarding im.riot.Riot @@u"
+    ),
+    (FileZilla, EXEC, filezilla),
+    (FireFox, EXEC, firefox),
+    ("KDE Connect", EXEC, "kdeconnect-app"),
+    (
+      "Nicotine+",
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=nicotine org.nicotine_plus.Nicotine"
+    ),
+    (Pamac, EXEC, "pamac-manager"),
+    (qBittorrent, EXEC, qbittorrent),
+    (
+      RustDesk,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=rustdesk --file-forwarding com.rustdesk.RustDesk @@u"
+    ),
+    (Telegram, EXEC, Telegram),
+    ("Tor Browser", EXEC, "torbrowser-launcher"),
+    (
+      Vesktop,
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=startvesktop --file-forwarding dev.vencord.Vesktop @@u"
+    )
+  ),
+     (
+    Office,
+    ("LibreOffice Calc", EXEC, "libreoffice --calc"),
+    ("LibreOffice Draw", EXEC, "libreoffice --draw"),
+    ("LibreOffice Impress", EXEC, libreoffice),
+    ("LibreOffice Impress", EXEC, "libreoffice --impress"),
+    ("LibreOffice Math", EXEC, "libreoffice --math"),
+    ("LibreOffice Writer", EXEC, "libreoffice --writer"),
+    (Okular, EXEC, okular)
+    ),
+  (
+    Shells,
+    (Dolphin, EXEC, dolphin),
+    (GIT, EXEC, "konsole -e git"),
+    (Konsole, EXEC, konsole),
+    (VirtualBox, EXEC, virtualbox),
+    (UXTerm, EXEC, uxterm),
+    (Xterm, EXEC, xterm)),
+
+
+  (
+    System,
+    ("KDE System Settings", EXEC, systemsettings),
+    ("btop++", EXEC, "konsole -e btop"),
+    (
+      "CPU-X",
+      SHEXEC,
+      "flatpak run --branch=stable --arch=x86_64 --command=cpu-x io.github.thetumultuousunicornofdarkness.cpu-x"
+    ),
+    (GParted, EXEC, gparted),
+    ("KDE Partition Manager", EXEC, partitionmanager),
+    (OCCT, EXEC, occt),
+    ("System Monitor", EXEC, "plasma-systemmonitor"),
+    (Timeshift, EXEC, "timeshift-launcher")),
+  (
+    Utilities,
+ ("Ark", EXEC, "ark"),
+  ("Filelight", EXEC, "filelight"),
+  (
+    "Flatseal",
+    SHEXEC,
+    "flatpak run --branch=stable --arch=x86_64 --command=com.github.tchx84.Flatseal com.github.tchx84.Flatseal"
+  ),
+  ("Gwenview", EXEC, "gwenview"),
+  (
+    "KolourPaint",
+    SHEXEC,
+    "flatpak run --branch=stable --arch=x86_64 --command=kolourpaint --file-forwarding org.kde.kolourpaint @@u"
+  ),
+  (
+    "Protontricks",
+    SHEXEC,
+    "flatpak run --branch=stable --arch=x86_64 --command=protontricks com.github.Matoking.protontricks --no-term --gui"
+  ),
+  (
+    "ProtonUp-Qt",
+    SHEXEC,
+    "flatpak run --branch=stable --arch=x86_64 --command=net.davidotek.pupgui2 net.davidotek.pupgui2"
+  ),
+  ("scanimage", EXEC, "konsole -e scanimage"),
+  ("Skanlite", EXEC, "skanlite"),
+  ("Spectacle", EXEC, "spectacle"),
+  ("Winetricks", EXEC, "winetricks --gui"))
+  ),
+  (
+    Appearance,
+    (Workspaces, WORKSPACE_MENU),
+    (
+      Appearance,
+      (
+        Themes,
+        OPEN_MENU,
+        "-noext /usr/share/WindowMaker/Themes $HOME/GNUstep/Library/WindowMaker/Themes WITH setstyle"
+      ),
+      (
+        Styles,
+        OPEN_MENU,
+        "-noext /usr/share/WindowMaker/Styles $HOME/GNUstep/Library/WindowMaker/Styles WITH setstyle"
+      ),
+      (
+        Icons,
+        OPEN_MENU,
+        "-noext /usr/share/WindowMaker/IconSets $HOME/GNUstep/Library/WindowMaker/IconSets WITH seticons"
+      ),
+      (
+        Backgrounds,
+        OPEN_MENU,
+        "-noext /usr/share/WindowMaker/Backgrounds $HOME/GNUstep/Library/WindowMaker/Backgrounds WITH wmsetbg -u -t"
+      ),
+      (
+        "Save Theme",
+        SHEXEC,
+        "getstyle -t $HOME/GNUstep/Library/WindowMaker/Themes/\"%a(Theme name)\""
+      ),
+      (
+        "Save IconSet",
+        SHEXEC,
+        "geticonset -t $HOME/GNUstep/Library/WindowMaker/IconSets/\"%a(IconSet name)\""
+      )
+    ),
+    ("Hide Others", HIDE_OTHERS),
+    ("Show All", SHOW_ALL),
+    (Refresh, REFRESH),
+    ("Save session", SAVE_SESSION),
+    ("Clear session", CLEAR_SESSION)
+  ),
+  ("Configure Window Maker", EXEC, WPrefs),
+  ("Restart Window Maker", RESTART),
+  ("Exit Window Maker", EXIT)
+)
