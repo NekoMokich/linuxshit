@@ -1,0 +1,110 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": "~/.config/fastfetch/GFBitches/*.png",
+    "width": 35,
+    "height": 20,
+    "padding": {
+      "top": 1,
+      "left": 3
+    }
+  },
+    "display": {
+        "separator": "  "
+
+    },
+
+
+  "color": {
+    "keys": "#acb9dc",
+    "title": "#add1db",
+    "output": "#ceaeda",
+  },
+
+      "modules": [
+	"break",
+	"break",
+{
+    "type": "Title",
+          "color": {
+        "user": "#add1db",
+        "at": "#add1db",
+        "host": "#add1db"
+      }},
+    "Separator",
+{
+             "type": "host",
+            "key": " ",
+            "keyColor": "#acb9dc",
+        },
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "#acb9dc",
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "#acb9dc",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ",
+            "keyColor": "#acb9dc",
+        },
+        {
+            "type": "de",
+            "key": " ",
+            "keyColor": "#acb9dc",
+        },
+        //{
+            //"type": "wm",
+            //"key": " ",
+            //"keyColor": "#acb9dc",
+        //},
+        	"break",
+
+        {
+            "type": "cpu",
+            "key": " ",
+            "keyColor": "#acb9dc"
+        },
+        {
+            "key": " {#keys}",
+            "type": "memory",
+            "keyColor": "#acb9dc"
+        },
+        {
+            "type": "gpu",
+            "key": "󰢮 ",
+            "keyColor": "#acb9dc"
+        },
+        {
+            "type": "disk",
+            "key": " ",
+            "keyColor": "#acb9dc"
+        },
+
+        "break",
+
+        {
+        "key": "󰔟 ",
+        "keyColor": "#acb9dc",
+        "type": "command",
+        "text": "birth_install=$(stat -c %W /); current=$(date +%s);    days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days",
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "#acb9dc",
+        },
+                {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "#acb9dc",
+        },
+
+    ]
+}
